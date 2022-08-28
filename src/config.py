@@ -31,8 +31,8 @@ class GameConfig:
     DEBUG: bool = True
     NAME: str = "STEAM Valley"
     FPS: int = 60
-    WIDTH: int = 1248
-    HEIGHT: int = 768
+    WIDTH: int = 1024
+    HEIGHT: int = 600
     TILE_SIZE: int = 48
     PLAYER_SOFT_EDGE_WIDTH: int = 300
 

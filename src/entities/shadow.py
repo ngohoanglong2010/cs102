@@ -2,7 +2,8 @@ from __future__ import annotations
 
 import logging
 import random
-from collections import Sequence
+# from collections import Sequence
+from typing import Sequence
 from typing import TYPE_CHECKING
 
 from common.event import GameEvent
