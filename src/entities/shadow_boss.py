@@ -62,6 +62,9 @@ class ShadowBoss(Shadow):
                 if self.hp <= 0:
                     self.die()
 
+    def render_image(self, screen, *args, **kwargs) -> None:
+        super().render(screen, *args, **kwargs)
+
     def render(self, screen, *args, **kwargs) -> None:
         super().render(screen, *args, **kwargs)
 
@@ -85,6 +88,8 @@ class ShadowBoss(Shadow):
                 color=Color.BOSS_HP_BAR,
                 margin=4,
             )
+            util.display_text(screen, "Hoang Thinh", self.rect.x, 50, 18);
+            util.draw_image(screen,self.rect.x, 50)
 
     def __del__(self):
         if self.hp <= 0:

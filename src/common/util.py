@@ -6,7 +6,7 @@ import pygame
 from pygame.font import Font
 from pygame.surface import Surface
 
-from config import DATA_DIR, FONT_PATH, Color, GameConfig, LevelLoadingBarConfig
+from config import  DATA_DIR, FONT_PATH, ASSET_DIR, Color, GameConfig, LevelLoadingBarConfig
 
 logging.basicConfig(level=logging.DEBUG if GameConfig.DEBUG else logging.INFO)
 
@@ -91,6 +91,11 @@ def draw_pct_bar(screen: Surface, fraction: float, x, y, width, height, margin, 
         color,
         (x + margin, y + margin, int(fraction * (width - 2 * margin)), height - 2 * margin),
     )
+
+
+def draw_image(screen: Surface, x, y):
+    image = pygame.image.load(ASSET_DIR / "items" / "boss.png")
+    screen.blit(image, (x, y))
 
 
 def get_available_level_ids() -> Iterable[int]:

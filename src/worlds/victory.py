@@ -18,7 +18,7 @@ class Victory(BaseScene):
         # TODO: clean up, move hardcoded values to configs
         util.display_text(
             self.screen,
-            text="Victory!",
+            text="Winner!",
             x=200,
             y=200,
             font_size=32,

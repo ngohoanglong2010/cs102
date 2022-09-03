@@ -3,7 +3,7 @@ import logging
 import pygame
 
 from common import util
-from config import GameConfig
+from config import ASSET_DIR, GameConfig
 from worlds.world_manager import WorldManager
 
 logging.basicConfig(level=logging.INFO)
@@ -19,6 +19,7 @@ class GameManager:
 
     def run(self):
         logger.info("GameManager Running...")
+
         is_running = True
         while is_running:
             self.screen.fill(pygame.Color("black"))
