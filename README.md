@@ -4,7 +4,15 @@ Xem ghi chú tóm tắt các bài học: [LINK](https://github.com/STEAMforVietn
 
 ## Miêu tả dự án
 
-<TODO: điền thêm thông tin dự án cuối khoá của bạn khi nộp bài>
+Em tên là Ngô Hoàng Long, email: ngohoanglong052010@gmail.com   
+Game của em được lập trình dựa trên game Bí ẩn Steam Valley. Ở đây, em tập trung cho level 3. Em đã thay đổi một số hình ảnh và sự kiện, em cũng đã khởi tạo một sprite mới là đôi cánh nhưng vì không còn nhiều thời gian nên sprite cánh của em chưa thể kích hoạt chức năng.Sau này, em sẽ lập trình làm sao cho khi nhân vật ăn cánh sẽ có thể bay lên được           
+Bối cảnh 
++ Thời gian: Hiện đại 
++ Không gian: Trong nhà máy Steam  
+Cốt truyện 
++ Mở đầu: Hoàng Long là một thực tập sinh và phải thực hiện các nhiệm vụ 
++ Diễn biến: Khi nghe tin những bóng ma đang đem đến cảm xúc tiêu cự cho mọi người ở trong nhà máy, Hoàng Long được giao đi giải quyết nhiệm vụ lớn đó 
++ Cuối: Hoàng Long tiêu diệt chúa tể bóng đêm và được đánh giá là xuất sắc
 
 ## Đường dẫn đến phiên bản cuối mỗi bài học
 
