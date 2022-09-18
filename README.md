@@ -5,7 +5,7 @@ Xem ghi chú tóm tắt các bài học: [LINK](https://github.com/STEAMforVietn
 ## Miêu tả dự án
 
 Em tên là Ngô Hoàng Long, email: ngohoanglong052010@gmail.com   
-Game của em được lập trình dựa trên game Bí ẩn Steam Valley. Ở đây, em tập trung cho level 3. Em đã thay đổi một số hình ảnh và sự kiện, em cũng đã khởi tạo một sprite mới là đôi cánh nhưng vì không còn nhiều thời gian nên sprite cánh của em chưa thể kích hoạt chức năng.Sau này, em sẽ lập trình làm sao cho khi nhân vật ăn cánh sẽ có thể bay lên được           
+Game của em được lập trình dựa trên game Bí ẩn Steam Valley. Ở đây, em tập trung cho level 3. Em đã thay đổi một số hình ảnh như hình ảnh khi người chơi và boss bắn ra, hình ảnh người chơi bị nổ bom, và sự kiện như khi người chơi bị trúng sẽ hiện lên dòng chữ đau quá hay con boss bị trúng đòn sẽ hiện lên những dòng chữ thể hiện tình trạng của nó lúc đó, em cũng đã khởi tạo một sprite mới là đôi cánh nhưng vì không còn nhiều thời gian nên sprite cánh của em chưa thể kích hoạt chức năng.Sau này, em sẽ lập trình làm sao cho khi nhân vật ăn cánh sẽ có thể bay lên được           
 Bối cảnh 
 + Thời gian: Hiện đại 
 + Không gian: Trong nhà máy Steam  
