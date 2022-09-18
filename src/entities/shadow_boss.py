@@ -84,3 +84,10 @@ class ShadowBoss(Shadow):
                 color=Color.BOSS_HP_BAR,
                 margin=4,
             )
+        match self.hp:
+            case 80:
+                util.display_text(screen, "Hoang Thinh", self.rect.x, 50, 18);
+
+            case 20:
+                util.display_text(screen, "Hoang Thinh", self.rect.x, 50, 18);
+
