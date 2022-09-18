@@ -90,8 +90,8 @@ class EntityFactory:
             logger.info(f"Hien thi swing")
             return Swing(
                 entity_type=entity_type,
-                x=100,
-                y=100,
+                x=350,
+                y=300,
                 sprite_path=PlayerBulletConfig.SWING_PATH,
                 scale=PlayerBulletConfig.SCALE,
 

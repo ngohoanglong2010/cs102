@@ -190,6 +190,11 @@ class Player(AnimatedEntity):
             if self.collide(shadow):
                 self._take_damage(shadow.damage)
 
+        for swing in self.world.get_entities(EntityType.SWING):
+            if self.collide(swing):
+                self.world.display_text("oh, I got swing")
+                self.world.remove_entity(swing.id)
+
     def _take_damage(self, damage: int):
         now_ms = now()
         if now_ms - self.last_hit_t < PlayerConfig.INVULNERABLE_DURATION_MS:
