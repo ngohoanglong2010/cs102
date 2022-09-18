@@ -8,10 +8,12 @@ from common import util
 from common.event import EventType, GameEvent
 from common.types import ActionType, EntityType
 from common.util import now
-from config import GameConfig, PlayerConfig, TrampolineConfig
+from pygame.font import Font
+from config import GameConfig, FONT_PATH, PlayerConfig, TrampolineConfig
 from entities.animated_entity import AnimatedEntity
 from entities.friendly_npc import FriendlyNpc
 from entities.trampoline import Trampoline
+
 
 if TYPE_CHECKING:
     from worlds.world import World
@@ -182,6 +184,7 @@ class Player(AnimatedEntity):
             if self.collide(bullet):
                 self.world.remove_entity(bullet.id)
                 self._take_damage(bullet.damage)
+                self.world.display_text("Á! đau quá")
 
         for shadow in self.world.get_entities(EntityType.SHADOW):
             if self.collide(shadow):

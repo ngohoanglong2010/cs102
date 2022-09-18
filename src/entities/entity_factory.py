@@ -16,8 +16,10 @@ from config import (
     ShadowConfig,
     TrampolineConfig,
 )
+from common import util
 from entities.base_entity import BaseEntity
 from entities.bullet import Bullet
+from entities.swing import Swing
 from entities.dialogue_box import DialogueBox
 from entities.friendly_npc import FriendlyNpc
 from entities.player import Player
@@ -28,6 +30,7 @@ from entities.shadow_alpha import ShadowAlpha
 from entities.shadow_boss import ShadowBoss
 from entities.trampoline import Trampoline
 from entities.trampoline_part import TrampolinePart
+logger = util.get_logger(__name__)
 
 
 class EntityFactory:
@@ -82,6 +85,16 @@ class EntityFactory:
                 gravity=PlayerBulletConfig.GRAVITY,
                 speed=PlayerBulletConfig.SPEED,
                 damage=PlayerBulletConfig.DAMAGE,
+            )
+        elif entity_type == EntityType.SWING:
+            logger.info(f"Hien thi swing")
+            return Swing(
+                entity_type=entity_type,
+                x=100,
+                y=100,
+                sprite_path=PlayerBulletConfig.SWING_PATH,
+                scale=PlayerBulletConfig.SCALE,
+
             )
         elif entity_type == EntityType.SHADOW_BULLET:
             return Bullet(

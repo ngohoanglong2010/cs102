@@ -86,8 +86,12 @@ class ShadowBoss(Shadow):
             )
         match self.hp:
             case 80:
-                util.display_text(screen, "Hoang Thinh", self.rect.x, 50, 18);
+                color: tuple = (0, 0, 0),
+                util.display_text(screen, "Ouch!", self.rect.x, 150, 30, color)
 
+            case 50:
+                color: tuple = (0, 0, 0),
+                util.display_text(screen, "You're very strong!", self.rect.x, 150, 30, color)
             case 20:
-                util.display_text(screen, "Hoang Thinh", self.rect.x, 50, 18);
-
+                color: tuple = (0, 0, 0),
+                util.display_text(screen, "Oh no! I am going to die!!!", self.rect.x, 150, 30, color)

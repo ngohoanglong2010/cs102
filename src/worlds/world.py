@@ -165,6 +165,10 @@ class World(BaseScene):
 
     def remove_entity(self, entity_id: int):
         del self.entities[entity_id]
+    # hien thi text trong man hinh choi
+
+    def display_text(self, text: str):
+        util.display_text(self.screen, text, 50, 50)
 
     def load_level(self, level_id: int):
         data = WorldData(level_id=level_id)

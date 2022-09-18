@@ -44,6 +44,7 @@ class EntityType(enum.Enum):
     DIALOGUE_BOX = 102
     PLAYER_BULLET = 103
     SHADOW_BULLET = 104
+    SWING = 1000
     PLAYER_HP = 105
     PLAYER_INVENTORY = 106
     HP_HEART = 107

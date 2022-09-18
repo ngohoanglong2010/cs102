@@ -18,10 +18,11 @@ FONT_PATH = ASSET_DIR / "fonts" / "arial.ttf"
 
 class Color:
     DEFAULT = (0, 0, 255)
+    BOSS_DIE = (0, 0, 255)
     BLACK = (0, 0, 0)
     WHITE = (255, 255, 255)
-    LOADING_BAR = (255, 51, 153)
-    BOSS_HP_BAR = (255, 51, 153)
+    LOADING_BAR = (0, 255, 0)
+    BOSS_HP_BAR = (204, 0, 0)
     TEXT_DIALOGUE_SUBJECT = (19, 2, 150)
     TEXT_DIALOGUE = (204, 115, 14)
     TEXT_INVENTORY_CNT = (255, 255, 0)
@@ -111,6 +112,7 @@ class PlayerInventoryConfig:
 
 class PlayerBulletConfig:
     SPRITE_PATH: Path = ASSET_DIR / "items" / "player_bullet.png"
+    SWING_PATH: Path = ASSET_DIR / "items" / "swing.png"
     SCALE: float = 0.7
     SPEED: int = 35
     GRAVITY: int = 2
@@ -160,7 +162,7 @@ class ShadowBulletConfig:
 
 
 class EndingBurgerConfig:
-    SPRITE_PATH: Path = ASSET_DIR / "items" / "player_bullet.png"
+    SPRITE_PATH: Path = ASSET_DIR / "items" / "phaohoa.png"
     SCALE: float = 0.8
     GRAVITY: float = 2.5
 
